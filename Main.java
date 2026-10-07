@@ -13,6 +13,7 @@ public class Main {
             Functions.testPreFixExpression(out);
             Functions.testDecToBinary(out);
             Functions.testIsBalanced(out);
+            Functions.testUndoRedo(out);
             out.close();
         }
         catch(IOException e){

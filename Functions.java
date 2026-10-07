@@ -75,4 +75,13 @@ public class Functions {
             "([x + y] + z}"));
     }
 
+    public static void testUndoRedo(PrintWriter out) {
+        System.out.println("\nSTACK 6: UNDO REDO FUNCTION EVALUATOR");
+        out.println("\nSTACK 6: UNDO REDO FUNCTION EVALUATOR");
+
+        ArrayList<String> expList = new ArrayList<>(Arrays.asList(
+            "D add a", "D add b", "D add c", "R", "U","U","R","U","D add d", "U", "U", "U", "R", "F", "Q"));
+
+    }
+
 }
